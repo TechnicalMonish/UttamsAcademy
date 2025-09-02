@@ -1,1 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uttam's Academy - One Stop For ALL Competitive Exams</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Molecular Background -->
+    <div class="molecular-bg" id="molecularBg"></div>
 
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+      <div class="loading-content">
+        <div class="loading-logo">UA</div>
+        <div class="loading-text">Uttam's Academy</div>
+        <div class="loading-spinner"></div>
+      </div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Header -->
+    <header>
+      <nav class="container">
+        <a href="#" class="logo-container">
+          <div class="logo-img">UA</div>
+          <span class="logo-text">Uttam's Academy</span>
+        </a>
+        <button class="mobile-menu" onclick="toggleMenu()">☰</button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home">Home</a></li>
+          <li>
+            <a href="http://uttamsacademy2.akamai.net.in/" target="_blank"
+              >Courses</a
+            >
+          </li>
+          <li>
+            <a href="http://uttamsacademy2.akamai.net.in/" target="_blank"
+              >Test Series</a
+            >
+          </li>
+          <li><a href="#videos">Video Lectures</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content fade-in-up">
+          <h1>Uttam's Academy</h1>
+          <p class="subtitle">One Stop For ALL Competitive Exams</p>
+          <div class="exam-badges">
+            <span class="exam-badge">BANK</span>
+            <span class="exam-badge">SSC</span>
+            <span class="exam-badge">RRB</span>
+            <span class="exam-badge">CAT</span>
+            <span class="exam-badge">CSAT</span>
+            <span class="exam-badge">DEFENCE</span>
+            <span class="exam-badge">AFCAT</span>
+            <span class="exam-badge">GATE</span>
+            <span class="exam-badge">CRT</span>
+            <span class="exam-badge">POLICE</span>
+            <span class="exam-badge">GROUPS & OTHER EXAMS</span>
+          </div>
+          <a
+            href="http://uttamsacademy2.akamai.net.in/"
+            target="_blank"
+            class="cta-button"
+            >Begin Your Success Journey</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section" id="videos">
+      <div class="container">
+        <h2 class="slide-in-left">Premium Video Lectures</h2>
+        <div class="video-grid">
+          <div class="video-card">
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              allowfullscreen
+            ></iframe>
+            <div class="video-info">
+              <h3>Banking Exam Preparation Strategy</h3>
+              <p>
+                Complete guide to crack banking examinations with expert tips
+                and tricks from our experienced faculty.
+              </p>
+            </div>
+          </div>
+          <div class="video-card">
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              allowfullscreen
+            ></iframe>
+            <div class="video-info">
+              <h3>SSC CGL Mathematics Master Class</h3>
+              <p>
+                Advanced mathematical concepts and shortcut techniques for SSC
+                CGL examination preparation.
+              </p>
+            </div>
+          </div>
+          <div class="video-card">
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              allowfullscreen
+            ></iframe>
+            <div class="video-info">
+              <h3>Railway NTPC Current Affairs</h3>
+              <p>
+                Latest current affairs updates and previous year questions
+                analysis for Railway NTPC examination.
+              </p>
+            </div>
+          </div>
+          <div class="video-card">
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              allowfullscreen
+            ></iframe>
+            <div class="video-info">
+              <h3>Police SI Reasoning & Logic</h3>
+              <p>
+                Comprehensive reasoning and logical thinking techniques for
+                Police Sub Inspector examinations.
+              </p>
+            </div>
+          </div>
+          <div class="video-card">
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              allowfullscreen
+            ></iframe>
+            <div class="video-info">
+              <h3>GATE Engineering Success Formula</h3>
+              <p>
+                Engineering concepts simplified with practical examples for GATE
+                examination success.
+              </p>
+            </div>
+          </div>
+          <div class="video-card">
+            <iframe
+              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              allowfullscreen
+            ></iframe>
+            <div class="video-info">
+              <h3>Defence Exam Complete Guide</h3>
+              <p>
+                Strategic preparation methodology for all defence examinations
+                including NDA, CDS, and AFCAT.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Exam Categories -->
+    <section class="exam-categories" id="courses">
+      <div class="container">
+        <h2 class="slide-in-left">Premium Exam Categories</h2>
+        <div class="categories-grid">
+          <div class="category-card">
+            <div class="icon">🏦</div>
+            <h3>Banking Excellence</h3>
+            <p>
+              SBI PO, IBPS PO/Clerk, RBI Grade B & All Premium Banking
+              Examinations with 100% Success Rate
+            </p>
+          </div>
+          <div class="category-card">
+            <div class="icon">📊</div>
+            <h3>SSC Mastery</h3>
+            <p>
+              SSC CGL, CHSL, MTS, JE & All Staff Selection Commission Exams with
+              Advanced Learning Methods
+            </p>
+          </div>
+          <div class="category-card">
+            <div class="icon">🚂</div>
+            <h3>Railway Success</h3>
+            <p>
+              RRB NTPC, Group D, ALP & All Railway Recruitment Exams with
+              Industry Expert Guidance
+            </p>
+          </div>
+          <div class="category-card">
+            <div class="icon">👮</div>
+            <h3>Police Excellence</h3>
+            <p>
+              SI, Constable, DSP & All State Police Examinations with
+              Specialized Training Programs
+            </p>
+          </div>
+          <div class="category-card">
+            <div class="icon">🛡️</div>
+            <h3>Defence Victory</h3>
+            <p>
+              AFCAT, NDA, CDS & All Defence Service Examinations with Military
+              Standard Training
+            </p>
+          </div>
+          <div class="category-card">
+            <div class="icon">🏛️</div>
+            <h3>State PSC Elite</h3>
+            <p>
+              APPSC, TSPSC & All State Public Service Commission Exams with
+              Regional Expertise
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+      <div class="container">
+        <h2 class="slide-in-right">Why Choose Uttam's Academy?</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="icon">📱</div>
+            <h3>Premium Mobile App</h3>
+            <p>
+              Revolutionary mobile learning platform with AI-powered study
+              recommendations, HD video downloads, and offline accessibility for
+              uninterrupted premium education.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="icon">👨‍🏫</div>
+            <h3>World-Class Faculty</h3>
+            <p>
+              Learn from India's top educators and subject matter experts with
+              decades of experience in competitive exam coaching and proven
+              success methodologies.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="icon">📚</div>
+            <h3>Comprehensive Resources</h3>
+            <p>
+              Access to premium study materials, curated practice questions,
+              advanced mock tests, and AI-powered performance analytics for
+              guaranteed success.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="icon">🌐</div>
+            <h3>Bilingual Excellence</h3>
+            <p>
+              Premium English and Telugu medium classes with dedicated native
+              faculty to cater to diverse linguistic backgrounds across Andhra
+              Pradesh and beyond.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="icon">📊</div>
+            <h3>Advanced Analytics</h3>
+            <p>
+              Comprehensive test series with AI-powered analysis, detailed
+              performance reports, predictive modeling, and personalized
+              improvement recommendations.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="icon">💡</div>
+            <h3>Smart Learning System</h3>
+            <p>
+              Revolutionary study techniques combining traditional wisdom with
+              cutting-edge technology. Master concepts efficiently with our
+              proven smart study methodology.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <h3 id="stat1">25L+</h3>
+            <p>Successful Students</p>
+          </div>
+          <div class="stat-item">
+            <h3 id="stat2">1500+</h3>
+            <p>Premium Video Lectures</p>
+          </div>
+          <div class="stat-item">
+            <h3 id="stat3">150+</h3>
+            <p>Comprehensive Mock Tests</p>
+          </div>
+          <div class="stat-item">
+            <h3 id="stat4">99%</h3>
+            <p>Student Success Rate</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2>Connect With Excellence</h2>
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="icon">📞</div>
+            <h3>Premium Support</h3>
+            <p>8688080802</p>
+          </div>
+          <div class="contact-item">
+            <div class="icon">📍</div>
+            <h3>Elite Campus</h3>
+            <p>Kadapa, Andhra Pradesh</p>
+          </div>
+          <!-- <div class="contact-item">
+            <div class="icon">🌐</div>
+            <h3>Digital Platform</h3>
+            <p>uttamsacademy2.akamai.net.in</p>
+          </div> -->
+          <div class="contact-item">
+            <div class="icon">📱</div>
+            <h3>Mobile Application</h3>
+            <p>Download from Play Store</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Quick Navigation</h3>
+            <a href="#home">Home</a>
+            <a href="http://uttamsacademy2.akamai.net.in/" target="_blank"
+              >Premium Courses</a
+            >
+            <a href="http://uttamsacademy2.akamai.net.in/" target="_blank"
+              >Test Series</a
+            >
+            <a href="#books">Study Materials</a>
+            <a href="#videos">Video Lectures</a>
+          </div>
+          <div class="footer-section">
+            <h3>Exam Categories</h3>
+            <a href="#">Banking Examinations</a>
+            <a href="#">SSC Examinations</a>
+            <a href="#">Railway Examinations</a>
+            <a href="#">Police Examinations</a>
+            <a href="#">Defence Examinations</a>
+          </div>
+          <div class="footer-section">
+            <h3>Premium Support</h3>
+            <a href="#">Help Center</a>
+            <a href="#">Contact Support</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Academic Guidelines</a>
+          </div>
+          <div class="footer-section">
+            <h3>Success Community</h3>
+            <p>
+              Join millions of successful students across India who have
+              achieved their dreams with Uttam's Academy's world-class premium
+              coaching and mentorship programs.
+            </p>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="#" title="Facebook" class="social-facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" title="YouTube" class="social-youtube">
+            <i class="fab fa-youtube"></i>
+          </a>
+          <a href="#" title="Telegram" class="social-telegram">
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+          <a href="#" title="Instagram" class="social-instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" title="Twitter" class="social-twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" title="LinkedIn" class="social-linkedin">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+        <p
+          style="
+            margin-top: 3rem;
+            padding-top: 3rem;
+            border-top: 2px solid #444;
+            font-size: 1.2rem;
+            font-weight: 600;
+          "
+        >
+          © 2025 Uttam's Academy. All rights reserved. | India's Most Premium
+          Competitive Exam Academy
+        </p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
